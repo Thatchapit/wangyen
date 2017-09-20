@@ -1,0 +1,193 @@
+body{
+    font-family: 'Kanit', sans-serif;
+}
+nav{
+    height: auto;
+    background-image: url('../images/bg_header.jpg');
+    background-size: cover;
+    padding-top: 1rem;
+    position: relative;
+    z-index: 1000;
+}
+.logoSpace{
+    margin-right: 35px;
+}
+
+.row .col.headName{
+   display: flex;
+   align-items: center;
+   padding-left: 3.5rem;
+}
+
+.headName img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.row .col.menubar{
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#17e4be+45,17e4be+100&1+37,0+100 */
+background: -moz-linear-gradient(left, rgba(23,228,190,1) 37%, rgba(23,228,190,0.87) 45%, rgba(23,228,190,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(23,228,190,1) 37%,rgba(23,228,190,0.87) 45%,rgba(23,228,190,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(23,228,190,1) 37%,rgba(23,228,190,0.87) 45%,rgba(23,228,190,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#17e4be', endColorstr='#0017e4be',GradientType=1 ); /* IE6-9 */
+    padding-left: 3.5rem;
+}
+
+.carousel{
+    margin-top: -20px;
+}
+
+.firstSection{
+    background-image: url('../images/bg_section1.png');
+    background-size: cover;
+}
+
+
+.headText{
+    position: relative;
+    height: 54px;
+}
+
+.headText .headBg{
+    position: absolute;
+    z-index: 9;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 54px;
+}
+.headText .text{
+  
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 473px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    padding-left: 2.5rem;
+    width: 100%;
+ background-size: cover;
+}
+
+.collection{
+    margin-top: 0;
+}
+.s5 .headText .text{
+    width: 107%;
+    background-image: url('../images/bg_head_news_activity.png');
+}
+
+.s4 .headText .text{
+    background-image: url('../images/bg_head_ceo.png');
+    padding-left: 5rem;
+}
+
+.headText .text label{
+    color: white;
+    font-size: 1.3rem;
+}
+
+.box{
+    width: 500px;
+}
+.card{
+    margin: 0;
+}
+.card-image{
+    width: 144px;
+    display: flex;
+    align-items: center;
+}
+
+.card .card-action{
+    border-top: none;
+}
+
+.ceo{
+    height: 344px;
+    background-color: red;
+    background-image: url('../images/section_ceo.jpg');
+    background-size: cover;
+    width: 369px;
+    margin-left: 3.5rem;
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+}
+
+.ceo h4{
+    font-size: 21px;
+    color: white;
+    margin: 0;
+}
+
+.ceo label{
+    color: white;
+    position: relative;
+}
+.ceo label:after{
+    content: "";
+    width: 40px;
+    height: 1px;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+
+    border-bottom: 2px solid white;
+}
+
+.ceo p{
+    width: 50%;
+    height: auto;
+    word-wrap: break-word;
+    font-size: 24px;
+    position: relative;
+    margin-top: 45px;
+    color: white;
+}
+
+.ceo p::after{
+    content: close-quote;
+    font-size: 36px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.ceo p::before{
+    content: open-quote;
+    font-size: 36px;
+    position: absolute;
+    top: -20px;
+    left: -10px;
+}
+
+.secSection {
+    background-image: url('../images/bg_section2.png');
+    background-size: cover;
+}
+
+.secSection .s7 .headText .text{
+    width: 107%;
+    background-image: url('../images/bg_head_news_pay.png');
+    background-position: right;
+}
+
+.secSection .s5 .headText .text{
+
+    background-image: url('../images/bg_head_public-guide.png');
+    background-position: left;
+}
+.secSection .collection .collection-item{
+    background-color: transparent;
+    color: black;
+}
+.secSection .collection .collection-item:nth-child(2n+2){
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#68cc9a+0,329998+100&0.5+0,0.5+100 */
+background: -moz-linear-gradient(left, rgba(104,204,154,0.2) 0%, rgba(50,153,152,0.2) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(104,204,154,0.2) 0%,rgba(50,153,152,0.2) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(104,204,154,0.2) 0%,rgba(50,153,152,0.2) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8068cc9a', endColorstr='#80329998',GradientType=1 ); /* IE6-9 */
+  }
